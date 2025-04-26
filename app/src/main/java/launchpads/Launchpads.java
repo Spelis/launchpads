@@ -11,7 +11,7 @@ import org.bukkit.util.Vector;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LauncherPlugin extends JavaPlugin implements TabExecutor {
+public class Launchpads extends JavaPlugin implements TabExecutor {
 
     @Override
     public void onEnable() {
