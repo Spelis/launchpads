@@ -8,4 +8,16 @@ api-version: 1.20
 commands:
   launch:
     usage: /launch <target> <x> <y> <z>
-    description: Launch an entity into the sky.
+    description: Launch an entity with a set velocity.
+    permission: launcher.launch
+  launchto:
+    usage: /launchto <target> <x> <y> <z> <ticks>
+    description: Launch an entity to land at a location in a set time.
+    permission: launcher.launchto
+permissions:
+  launcher.launch:
+    description: Allows launching entities.
+    default: op
+  launcher.launchto:
+    description: Allows launching entities to a specific location.
+    default: op
