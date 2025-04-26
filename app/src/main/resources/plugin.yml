@@ -1,0 +1,11 @@
+name: Launchpads
+version: oneAndOnly
+main: launchpads.Launchpads
+description: Launchpads that... launch players into the sky
+author: Spelis
+website: https://spelis.github.io
+api-version: 1.20
+commands:
+  launch:
+    usage: /launch <target> <x> <y> <z>
+    description: Launch an entity into the sky.
