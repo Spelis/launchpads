@@ -1,4 +1,4 @@
-package me.example.launcher;
+package launchpads;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
